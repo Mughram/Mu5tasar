@@ -5,3 +5,7 @@
 *.pem
 *.crt
 .test-tmp/
+SETUP.md
+tests/
+main/uploads/*
+!main/uploads/.htaccess

@@ -64,7 +64,7 @@ require_once __DIR__ . '/../config/security.php';
                 
                 <h4 class="mt-5">Who We Are</h4>
                 <p>
-                We are Mughram Ayshi, Rayan Hakami, Alaihm Ayel and Mohammad Holbah a group of students from Jazan University / College of Engineering and Computer Scince.
+                We are Mughram Ayashi, Rayan Hakami, Alaihm Ayel and Mohammad Holbah a group of students from Jazan University / College of Engineering and Computer Scince.
                 </p>
                 
                 
