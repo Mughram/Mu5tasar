@@ -1,0 +1,14 @@
+Options -Indexes -ExecCGI
+RemoveHandler .jpg .jpeg .png .gif .webp
+RemoveType .jpg .jpeg .png .gif .webp
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/gif .gif
+AddType image/webp .webp
+<FilesMatch "(?i)\.(?!jpe?g$|png$|gif$|webp$)[^.]+$">
+    Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Content-Security-Policy "sandbox; default-src 'none'"
+</IfModule>
