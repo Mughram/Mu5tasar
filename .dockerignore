@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!config/
+!config/*.php
+!main/
+!main/*.php
+!main/quiz.jpg
+!main/.htaccess
+!main/.user.ini
+!main/includes/
+!main/includes/*.php
+!main/uploads/
+!main/uploads/.htaccess
+!deploy/
+!deploy/*.conf
